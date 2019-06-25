@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "pre-push": "yarn build",
     "dev": "vuepress dev .",
     "build": "vuepress build ."
   },
