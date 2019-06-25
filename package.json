@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
-    "deploy": "yarn build && git push"
+    "deploy": "yarn build && git commit -m 'chore: new build' && git push"
   },
   "devDependencies": {
     "vuepress": "^1.0.2"
