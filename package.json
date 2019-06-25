@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "pre-push": "yarn build",
     "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "deploy": "yarn build && git push"
   },
   "devDependencies": {
     "vuepress": "^1.0.2"
