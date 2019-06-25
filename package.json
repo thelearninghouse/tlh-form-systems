@@ -1,0 +1,13 @@
+{
+  "name": "tlh-form-systems-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev demo",
+    "docs:build": "vuepress build demo"
+  },
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
