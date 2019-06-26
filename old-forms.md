@@ -2,7 +2,7 @@
 
 ## Steps
 
-### 1. Create form template in Repo 
+### 1. Create form template in Repo
 
 - Consists of single `php` file
 - Uses regular HTML
