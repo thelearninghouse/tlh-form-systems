@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/tlh-forms-systems/',
+    // base: '/tlh-forms-systems/',
     themeConfig: {
         sidebar: [
             "/",
@@ -7,5 +7,5 @@ module.exports = {
             "/new-forms.md",
         ]        
     },
-    dest: './docs'
+    // dest: './docs'
 }
