@@ -12,4 +12,8 @@
 - Put `<div id="tlh-form"></div>` where form should be rendered
   - Can also use the WordPress shortcode `[tlh-form]`
 
-## Something Else
+<br>
+
+## Wordpress Plugin
+
+Sometjing
