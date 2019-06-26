@@ -1,52 +1,30 @@
 # Old Forms
 
-## Steps:
+## Steps
 
-- Create form template in `request-forms` repo
+### 1. Create form template in Repo 
 
-  - Consists of single `php` file
-  - Uses regular HTML
+- Consists of single `php` file
+- Uses regular HTML
+- [request-forms repo](https://github.com/thelearninghouse/request-forms)
 
-- Build & deploy it via Jenkins
+### 2. Build & deploy it via Jenkins
+  
+- No form changes will show until this happens
 
-- Get the appropriate ID's based on the form type
+### 3. Get the appropriate ID's based on the form type
 
-  - No select menu -> `affilateID/organizationID`
-  - With select menu -> `organizationID/programID`
+- No select menu -> `affilateID/organizationID`
+- With select menu -> `organizationID/programID`
 
-- Put the script on the page where the form should be displayed
+### 4. Add the form to the page
 
-**Example `script` URL that is embed into a page to render a form:**
+How this is done can vary based on the site and situation.
+Some examples:
 
-```html
-<script
-  src="https://requestforms.learninghouse.com/form/show/university-west-alabama/olc/734/3589/online.uwa.edu:my:thank-you:request_id"
-  type="text/javascript"
-></script>
-```
+- Hardcoded in a template file like `get-started.php`
+- Using an ACF field to set the program ID per page and use that value to build the script in a template file like `single-degrees.php` - [Example](https://online.jessup.edu/wp-admin/post.php?post=902&action=edit)
 
-## The URL
+## Notes
 
-- An example of a URL used for the old form systems is shown here below:
-  `https://requestforms.learninghouse.com/form/show/university-west-alabama/olc/734/3589/online.uwa.edu:my:thank-you:request_id`
-
-- Goes in the page where you want the form to be displayed
-
-### The URL Structure Is As Follows:
-
-- The base URL: `https://requestforms.learninghouse.com/form/show/`
-- This form template's path inside Github: `university-west-alabama/olc`
-- A set of adjacent numerical ID's: `734/3589`
-- The path of the thank you page: `online.uwa.edu:my:thank-you:request_id`
-
-<!-- to thisThe location of the the form template to use which consists of the Github repo funiversity-west-alabama -->
-
-<!-- ## Set Up Steps
-
-1. Create the diretory and form template(s) if doesn't already exist -->
-
-## Overview Info
-
-- 2 scripts are needed for a form on a page
-  - `https://requestforms.learninghouse.com/form/affiliate/221`
-  - `theschoolformscript`
+- All forms should be hardcoded
