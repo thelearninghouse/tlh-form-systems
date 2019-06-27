@@ -2,19 +2,19 @@
 set -e
 
 # build
-npm run docs:build
+npm run build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
 git init
 git add -A
-git commit -m 'docs deploy'
+git commit -m 'ghpages deploy'
 
-git remote add origin https://github.com/thelearninghouse/starter-theme.git
+git remote add origin https://github.com/thelearninghouse/tlh-form-systems.git
 git push -f origin master:gh-pages
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
