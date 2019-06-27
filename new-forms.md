@@ -9,8 +9,6 @@
 - Uses Vue components
 - [marketing-forms repo](https://github.com/thelearninghouse/marketing-forms)
 
-
-
 ::: warning IMPORTANT
 **The filenames must match the name of their parent directory**
 :::
@@ -24,10 +22,11 @@
 
 - Put `<div id="tlh-form"></div>` where form should be rendered
 - Can also use the WordPress shortcode `[tlh-form]`
+- [Form Setup Example](https://tlhdev.wpengine.com/wp-admin/post.php?post=662&action=edit)
 
-::: tip
+<!-- ::: tip
 **Only neccessary if this hasn't been setup yet.**
-:::
+::: -->
 
 <!-- - Create form template in `marketing-forms` repo
 
@@ -46,9 +45,9 @@
 
 ### 1. Setup WPPusher
 
- 1. Install WP Pusher Plugin
- 2. Obtain Github Token For WP Pusher
- 3. Using WP Pusher - Add our [TLH Forms](https://github.com/thelearninghouse/tlh-forms) plugin
+- Install WP Pusher Plugin
+- Obtain Github Token For WP Pusher
+- Using WP Pusher - Add our [TLH Forms](https://github.com/thelearninghouse/tlh-forms) plugin
 
 ::: tip
 **This allows plugin updates to be pulled from the WordPress Admin**
@@ -56,4 +55,5 @@
 
 ### 2. Configure Settings
 
-- Info needed obtained from [Forms Admin](https://admin.learninghouse.com) 
+- Info needed obtained from [Forms Admin](https://admin.learninghouse.com)
+- Configure in TlhForms Admin - [Example TlhForms Admin](https://tlhdev.wpengine.com/wp-admin/admin.php?page=form-settings)
