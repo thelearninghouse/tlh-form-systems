@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "predeploy": "yarn build && git add -A && git commit -m 'chore: new build'",
-    "deploy": "git push"
+    "deploy": "git push",
+    "update": "git add -A && git commit -m 'update' && git push"    
   },
   "devDependencies": {
     "vuepress": "^1.0.2"

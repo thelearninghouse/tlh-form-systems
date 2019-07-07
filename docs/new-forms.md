@@ -46,8 +46,12 @@
 ### 1. Setup WPPusher
 
 - Install WP Pusher Plugin
+
 - Obtain Github Token For WP Pusher
+  ![Obtain Token](obtain-github-token.jpeg)
+
 - Using WP Pusher - Add our [TLH Forms](https://github.com/thelearninghouse/tlh-forms) plugin
+  ![Add Plugin](add-plugin.jpeg)
 
 ::: tip
 **This allows plugin updates to be pulled from the WordPress Admin**
